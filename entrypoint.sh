@@ -355,7 +355,7 @@ kind::start() {
   local imageName="${1}"
 
   local clusterName="${KIND_CLUSTER_NAME:-kind}"
-  local kindLogLevel="${KIND_LOG_LEVEL:-all}"
+  local kindLogLevel="${KIND_LOG_LEVEL:-debug}"
   local userKindConfig="${KIND_CONFIG:-}"
 
   local defaultKindConfigFile="${PWD}/kind-on-c/kind-default-config.yaml"
